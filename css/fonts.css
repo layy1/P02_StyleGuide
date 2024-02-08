@@ -1,0 +1,41 @@
+@font-face {
+	font-family: 'Kodchasan';
+	font-weight: normal;
+	font-style: normal;
+	src: url('../fonts/Kodchasan-Regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'JejuMyeongjo';
+	font-weight: normal;
+	font-style: normal;
+	src: url('../fonts/JejuMyeongjo-Regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'PlayfairDisplay';
+	font-weight: normal;
+	font-style: normal;
+	src: url('../fonts/PlayfairDisplay-Regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'WorkSans';
+	font-weight: normal;
+	font-style: normal;
+	src: url('../fonts/WorkSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'WorkSansMedium';
+	font-weight: normal;
+	font-style: normal;
+	src: url('../fonts/WorkSans-Medium.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Magilio';
+	font-weight: normal;
+	font-style: normal;
+	src: url('../fonts/MagilioRegular-Yzv2O.ttf') format('truetype');
+}
