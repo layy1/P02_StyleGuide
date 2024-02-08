@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+
+    <meta charset="utf-8">
+    <title>The Roost Style Guide</title>
+
+
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/fonts.css" rel="stylesheet">
+
+
+  </head>
+
+  <body>
+
+<section>
+    <header>
+      <h1>The Roost</h1>
+      <h2>Style Guide</h2>
+
+<!-- Navigation, menu header -->
+
+      <nav class= "nav-menu">
+        <a href="#about" class= "nav-button">About</a>
+        <a href="#interactive_elements" class= "nav-button">Interactive Elements</a>
+        <a href="#text_elements" class= "nav-button">Text Elements</a>
+        <a href="#combined_elements" class= "nav-button">Combined Elements</a>
+        <a href="#brand-elements" class= "nav-button">Branding</a>
+        <a href="./citations.html" class= "nav-button">Citations</a>
+        <a href="./product-listings.html" class= "nav-button">Templates</a>
+      </nav>
+    </header>
+</section>
+
+<!-- Section (for a line inbetween nav and body content lol) -->
+<section class = "element"> </section>
+
+
+<!-- About section (content starts) -->
+<section id="about">
+<h2>About The Roost</h2>
+
+  <p>
+    The Roost is a coffee company dedicated to providing quality coffee and drinks either at one of our cafes or in the comfort of your own home.
+    This company can either be a place for people to come and get a coffee on the go, a study space for coffee lovers or a one stop shop for buying anything
+    and everything to recreate the cafe experience at home.
+    <br>
+    The Roost intends to cater to audiences of all ages who have an interest in good coffee.
+    Customers will be encouraged to purchase food or drink and products from The Roost as it provides not only quality food and drinks to customers in-store,
+    but also allows customers to bring the same experience to their home using their online store and delivery service.
+  </p>
+
+</section>
+
+<!-- INTERACTIVE ELEMENTS SECTION // -->
+
+    <section id="interactive_elements">
+      <h2>Interactive Elements</h2>
+
+<!-- in-text link -->
+      <section class= "element">
+        <h3>In-text link/Button</h3>
+        <h4>CSS selector:</h4>
+        <p>.button</p>
+        <h4>Sample code:</h4>
+        <code>&lt;a href="#" class="button"&gt;In-text&lt;/a&gt;</code>
+
+        <h4>Rendered element:</h4>
+        <a class="button" href="#">In-text link</a>
+
+      </section>
+
+
+<!-- navigation link -->
+      <section  class= "element">
+
+        <h3>Navigation Link</h3>
+
+        <h4>CSS selector:</h4>
+        <p>.nav-button</p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;a href="#" class="nav-button"&gt;Navigation link&lt;/a&gt;</code>
+
+        <h4>Rendered element:</h4>
+        <a href="#" class= "nav-button">Navigation link</a>
+
+      </section>
+
+<!-- submit/reset buttons -->
+      <section class= "element">
+        <h3>Submit/Reset Buttons</h3>
+
+        <h4>CSS selector:</h4>
+        <p>.submit-button</p>
+        <p>.reset-button</p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;a href="#" class="submit-button"&gt;Submit&lt;/a&gt;</code>
+
+        <h4>Rendered element:</h4>
+        <a href="#" class= "submit-button">Submit</a>
+        <a href="#" class= "reset-button">Reset</a>
+
+      </section>
+
+<!-- text input with submit button and label -->
+      <section class= "element">
+        <h3>Text Input Field with Label</h3>
+
+        <h4>CSS selector:</h4>
+        <p>.text-input-with-label</p>
+
+        <h4>Sample code:</h4>
+        <code>
+          &lt;form class= "text-input-with-label" method="post" action="#"&gt;
+            <br>
+            &nbsp;&lt;label for="form-comment""&gt;Label::&lt;/label&gt;
+            <br>
+            &nbsp;&lt;input type="text" id="form-comment" class= "text-input" placeholder="Text Input"&gt;
+            <br>
+            &nbsp;&lt;input type="submit" value="Send""&gt;
+            <br>
+          &lt;/form&gt;
+      </code>
+
+
+        <h4>Rendered element:</h4>
+        <form class= "text-input-with-label" method="post" action="#">
+          <label for="form-comment">Leave Us a Comment:</label> <br>
+          <input type="text" id="form-comment" class= "text-input" placeholder="Text Input">
+          <input type="submit" class= "input-button" value="Send">
+        </form>
+      </section>
+
+<!-- radio button with label -->
+      <section class= "element">
+        <h3>Radio Button with Label</h3>
+
+        <h4>CSS selector:</h4>
+        <p>.radio-button</p>
+
+        <h4>Sample code:</h4>
+        <code>
+          &lt;input type="radio" class= "Radio" name="" value=""&gt;<br>
+            &nbsp;&lt;label for=""&gt;Button&lt;/label&gt;
+        </code>
+
+        <h4>Rendered element:</h4>
+        <input type="radio" class= "radio" name="" value="">
+        <label for="">Radio</label>
+        <input type="radio" class= "radio" name="" value="">
+        <label for="">Button</label>
+
+      </section>
+
+<!-- image as a link -->
+      <section class= "element">
+        <h3>Image as a Link</h3>
+
+          <h4>CSS selector:</h4>
+          <p>.image-link</p>
+
+          <h4>Sample code:</h4>
+          <code>
+            &lt;a href="https://youtu.be/NJuSStkIZBg?si=-XyrgjxlyoSpxAjN" class= "image-link"&gt;
+            <br>
+            &nbsp;&lt;img src="img/coffee.jpg"&gt;
+            <br>
+            &lt;/a&gt;
+          </code>
+
+          <h4>Rendered element:</h4>
+          <a href="https://youtu.be/NJuSStkIZBg?si=-XyrgjxlyoSpxAjN" class= "image-link">
+            <img src="img/coffee.jpg">
+          </a>
+
+      </section>
+
+
+    </section>
+
+
+    <!-- TEXT ELEMENTS SECTION // -->
+    <section id="text_elements">
+      <h2>Text Elements</h2>
+
+      <section class="element">
+        <h3>Heading 1</h3>
+        <h4>CSS selector:</h4>
+        <p>.h1</p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;h1&gt;Heading 1&lt;/h1&gt;</code>
+
+        <h4>Rendered element:</h4>
+        <h1>Heading 1</h1>
+
+      </section>
+
+      <section class="element">
+        <h3>Heading 2</h3>
+        <h4>CSS selector:</h4>
+        <p>.h2</p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;h2&gt;Heading 2&lt;/h2&gt;</code>
+
+        <h4>Rendered element:</h4>
+        <h2>Heading 2</h2>
+
+      </section>
+
+      <section class="element">
+        <h3>Heading 3</h3>
+        <h4>CSS selector:</h4>
+        <p>.h3</p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;h3&gt;Heading 3&lt;/h3&gt;</code>
+
+        <h4>Rendered element:</h4>
+        <h3>Heading 3</h3>
+
+      </section>
+
+      <section class="element">
+        <h3>Captions</h3>
+        <h4>CSS selector:</h4>
+        <p>.h6</p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;h6&gt;Captions&lt;/h6&gt;</code>
+
+        <h4>Rendered element:</h4>
+        <h6>Captions</h6>
+
+      </section>
+
+
+      <section class="element">
+        <h3>Paragraphs</h3>
+
+        <h4>CSS selector:</h4>
+        <p>.p</p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;p&gt;Paragraphs&lt;/p&gt;</code>
+
+        <h4>Rendered element:</h4>
+        <p>Paragraphs</p>
+      </section>
+
+    <section class="element">
+      <h3>Numbered List</h3>
+
+      <h4>CSS selector:</h4>
+      <p>.numbered-list</p>
+
+      <h4>Sample code:</h4>
+      <code>
+        &lt;ol type = "1" class = "numbered-list"&gt;
+        <br>
+        &nbsp;&lt;li&gt;Number 1&lt;/li&gt;
+        <br>
+        &nbsp;&lt;li&gt;Number 2&lt;/li&gt;
+        <br>
+        &nbsp;&lt;li&gt;Number 3&lt;/li&gt;
+        <br>
+        &lt;/ol&gt;
+      </code>
+
+      <h4>Rendered element:</h4>
+      <ol type = "1" class = "numbered-list">
+        <li>Number 1</li>
+        <li>Number 2</li>
+        <li>Number 3</li>
+      </ol>
+
+    </section>
+
+  </section>
+    <!-- // TEXT ELEMENTS SECTION -->
+
+
+    <!-- COMBINED ELEMENTS SECTION // -->
+
+    <section id="combined_elements">
+      <h2>Combined Elements</h2>
+
+    <!-- Your main navigation (i.e. a collection of the 'navigation link' items) -->
+      <section class="element">
+        <h3>Main Navigation</h3>
+        <h4>CSS selector:</h4>
+        <p>.nav-menu</p>
+
+        <h4>Sample code:</h4>
+        <code>
+          &lt;nav id= "main-nav" class= "nav-menu"&gt;
+          <br>
+          &nbsp;&lt;a href="#" class= "nav-button"&gt;Home&lt;/a&gt;
+          <br>
+          &nbsp;&lt;a href="#" class= "nav-button"&gt;Shop&lt;/a&gt;
+          <br>
+          &nbsp;&lt; href="#" class= "nav-button"&gt;About&lt;/a&gt;
+          <br>
+          &nbsp;&lt;a href="#" class= "nav-button"&gt;Cart&lt;/a&gt;
+          <br>
+          &nbsp;&lt;a href="#" class= "nav-button"&gt;Contact Us&lt;/a&gt;
+          <br>
+          &lt;/nav&gt;
+        </code>
+
+        <h4>Rendered element:</h4>
+        <nav id= "main-nav" class= "nav-menu">
+          <a href="#" class= "nav-button">Home</a>
+          <a href="#" class= "nav-button">Shop</a>
+          <a href="#" class= "nav-button">About</a>
+          <a href="#" class= "nav-button">Cart</a>
+          <a href="#" class= "nav-button">Contact Us</a>
+        </nav>
+
+      </section>
+
+      <!-- A product/service listing (i.e. a product name, image, cost, link to detailed description, etc) -->
+      <section class="element">
+        <h3>Product/Service Listing</h3>
+
+        <h4>CSS selector:</h4>
+        <p>.product-listing</p>
+
+        <h4>Sample code:</h4>
+        <code>
+
+          &lt;div class= "product-listing"&gt;
+          <br>
+              &nbsp;&lt;a href="https://pin.it/6VLsk0Iip" class= "image-link"&gt;
+            <br>
+            &nbsp;&lt;img src="img/coffee-product.jpg"&gt;
+            <br>
+            &nbsp;&lt;/a&gt;
+            <br>
+            &nbsp;&lt;div class = "product-listing-decription"&gt;
+            <br>
+            &nbsp;&lt;h2>Family Blend&lt;/h2&gt;
+            <br>
+              &nbsp;&lt;h3>$25.00&lt;/h3&gt;
+              <br>
+              &nbsp;&lt;p&gt; Indulge in the luxury of our Roost Signature Blend – an invitation to elevate your coffee ritual.
+                Whether you're starting your day with a steaming mug or enjoying a quiet moment of reflection, this blend is designed to enhance
+                every coffee lover's experience. Embrace the artistry in every cup and make each morning extraordinary with our meticulously crafted
+                coffee blend.&nbsp;&lt;/p&gt;
+                <br>
+                &nbsp;&lt;/div&gt;
+                <br>
+              &lt;/div&gt;
+
+          </div>
+
+        </code>
+
+        <h4>Rendered element:</h4>
+        <div class= "product-listing">
+          <a href="https://pin.it/6VLsk0Iip" class= "image-link">
+          <img src="img/coffee-product.jpg">
+        </a>
+        <div class= "product-listing-description">
+            <h2>Family Blend</h2>
+            <h3>$25.00</h3>
+            <p > Indulge in the luxury of our Roost Signature Blend – an invitation to elevate your coffee ritual.
+              Whether you're starting your day with a steaming mug or enjoying a quiet moment of reflection, this blend is designed to enhance
+              every coffee lover's experience. Embrace the artistry in every cup and make each morning extraordinary with our meticulously crafted
+              coffee blend.
+            </p>
+          </div>
+        </div>
+
+      </section>
+
+      <!-- A payment form (i.e. a collection of text and radio inputs, with labels, and a submit button) -->
+      <section class="element">
+        <h3>Payment Form</h3>
+
+        <h4>CSS selector:</h4>
+        <p>.payment-form</p>
+
+        <h4>Sample code:</h4>
+        <code>
+
+          &lt;div class= "payment-form"&gt;
+          <br>
+          &nbsp;&lt;h2&gt;Payment Form&lt;/h2&gt;
+          <br>
+          &nbsp;&lt;form method="submit" action="#"&gt;
+          <br>
+          &nbsp;&lt;div class= "first-last-name-container"&gt;
+          <br>
+          &nbsp;&lt;div class= "first-name"&gt;
+          <br>
+          &nbsp;&lt;label for="form-comment"&gt;First Name:&lt;/label&gt;
+          <br>
+          &nbsp;&lt;input type="text" id="form-comment" class= "firstname-input" placeholder="John"&gt;
+          <br>
+          &nbsp;&lt;/div&gt;
+          <br>
+          &nbsp;&lt;div class= "last-name"&gt;
+          <br>
+          &nbsp;&lt;label for="form-comment">Last Name:&lt;/label&gt;
+          <br>
+          &nbsp;&lt;input type="text" id="form-comment" class= "lastname-input" placeholder="Smith"&gt;
+          <br>
+          &nbsp;&lt;/div&gt;
+          <br>
+          &nbsp;&lt;/div&gt;
+          <br>
+          &nbsp;&lt;/form&gt;
+          <br>
+          &nbsp;&lt;form method="submit" action="#"&gt;
+          <br>
+          &nbsp;&lt;label for="form-comment"&gt;Email Address:&lt;/label&gt;
+          <br>
+          &nbsp;&lt;input type="text" id="form-comment" class= "email-add" placeholder="JohnSmith@email.com"&gt;
+          <br>
+          &nbsp;&lt;/form&gt;
+          <br>
+          &nbsp;&lt;h3>Select Payment Type&lt;/h3&gt;
+          <br>
+          &nbsp;&lt;input type="radio" class= "radio" name="" value=""&gt;
+          <br>
+          &nbsp;&lt;label for="">Debit/Credit&lt;/label&gt;
+          <br>
+          &nbsp;&lt;br&gt;
+          <br>
+          &nbsp;&lt;input type="radio" class= "radio" name="" value=""&gt;
+          <br>
+          &nbsp;&lt;label for="">Paypal&lt;/label&gt;
+          <br>
+          &nbsp;&lt;br&gt;
+          <br>
+          &nbsp;&lt;input type="radio" class= "radio" name="" value=""&gt;
+          <br>
+          &nbsp;&lt;label for=""&gt;Other&lt;/label&gt;
+          <br>
+          &nbsp;&lt;br&gt;
+          <br>
+          &nbsp;&lt;input type="submit" class="input-button" value="Confirm Payment"&gt;
+          <br>
+          &lt;/div&gt;
+
+        </code>
+
+        <h4>Rendered element:</h4>
+        <div class= "payment-form">
+          <h2>Payment Form</h2>
+          <form method="submit" action="#">
+            <div class= "first-last-name-container">
+            <div class= "first-name">
+            <label for="form-comment">First Name:</label>
+            <input type="text" id="form-comment" class= "firstname-input" placeholder="John">
+          </div>
+          <div class="last-name">
+            <label for="form-comment">Last Name:</label>
+            <input type="text" id="form-comment" class= "lastname-input" placeholder="Smith">
+          </div>
+          </div>
+          </form>
+          <form method= "submit" action= "#">
+            <label for="form-comment">Email Address:</label>
+            <input type="text" id="form-comment" class= "email-add" placeholder="JohnSmith@email.com">
+          </form>
+          <form method= "submit" action= "#">
+            <label for="form-comment">Phone Number:</label>
+            <input type="text" id="form-comment" class= "email-add" placeholder="XXX-XXX-XXX">
+          </form>
+          <form method= "submit" action= "#">
+            <label for="form-comment">Address:</label>
+            <input type="text" id="form-comment" class= "email-add" placeholder="Address Line 1">
+            <input type="text" id="form-comment" class= "email-add" placeholder="Address Line 2">
+          </form>
+
+          <form method="submit" action="#">
+            <label for="form-comment">City:</label>
+            <input type="text" id="form-comment" class= "city-input" placeholder="City">
+          </form>
+          <form method="submit" action="#">
+            <label for="form-comment">Postal Code:</label>
+            <input type="text" id="form-comment" class= "postal-input" placeholder="Postal Code">
+          </form>
+          <h3>Select Payment Type</h3>
+          <input type="radio" class= "radio" name="" value="">
+          <label for="">Debit/Credit</label>
+          <br>
+          <input type="radio" class= "radio" name="" value="">
+          <label for="">Paypal</label>
+          <br>
+          <input type="radio" class= "radio" name="" value="">
+          <label for="">Other</label>
+          <br>
+          <input type="submit" class= "input-button" value="Confirm Payment">
+        </div>
+
+      </section>
+
+      <!-- A 'checkout cart' with at least two items (i.e. product names, costs, total amount, etc) -->
+
+      <section class="element">
+        <h3>Checkout Cart</h3>
+
+        <h4>CSS selector:</h4>
+        <p>.checkout-cart</p>
+
+        <h4>Sample code:</h4>
+        <code>
+          &lt;div class= "checkout-product-container"&gt;
+          <br>
+          &lt;div class= "product-img-checkout"&gt;
+          <br>
+          &nbsp;&lt;a href="https://pin.it/6VLsk0Iip" class= "img-checkout"&gt;
+          <br>
+          &nbsp;&lt;img src="img/coffee-product.jpg"&gt;
+          <br>
+          &nbsp;&lt;/a&gt;
+          <br>
+          &nbsp;&lt;/div&gt;
+          <br>
+          &nbsp;&lt;div class= "product-checkout-description"&gt;
+          <br>
+          &nbsp;&lt;h2&gt;Family Blend&lt;/h2&gt;
+          <br>
+          &nbsp;&lt;h3&gt;$25.00&lt;/h3&gt;
+          <br>
+          &nbsp;&lt;/div&gt;
+          <br>
+          &nbsp;&lt;/div&gt;
+          <br>
+          &lt;div class= "checkout-product-container"&gt;
+          <br>
+          &lt;div class= "product-img-checkout"&gt;
+          <br>
+          &nbsp;&lt;a href="https://pin.it/22aHSy1xW" class= "img-checkout"&gt;
+          <br>
+          &nbsp;&lt;img src="img/mug-product.jpg"&gt;
+          <br>
+          &nbsp;&lt;/a&gt;
+          <br>
+          &nbsp;&lt;/div&gt;
+          <br>
+          &nbsp;&lt;div class= "product-checkout-description"&gt;
+          <br>
+          &nbsp;&lt;h2&gt;Coffee Mug&lt;/h2&gt;
+          <br>
+          &nbsp;&lt;h3&gt;$15.00&lt;/h3&gt;
+          <br>
+          &nbsp;&lt;/div&gt;
+          <br>
+          &nbsp;&lt;/div&gt;
+          <br>
+          &lt;div class= "checkout-product-container"&gt;
+          <br>
+          &lt;div class= "total"&gt;
+          <br>
+          &nbsp;&lt;h2>Subtotal:&lt;/h2&gt;
+          <br>
+          &nbsp;&lt;h3>$40.00&lt;/h3&gt;
+          <br>
+          &nbsp;&lt;/div&gt;
+          <br>
+          &nbsp;&lt;/div&gt;
+          <br>
+          &lt;a href="#" class="payment-button"&gt;Proceed to Payment >>&lt;/a&gt;
+        </code>
+
+        <h4>Rendered element:</h4>
+        <div class= "checkout">
+        <div class= "checkout-product-container">
+          <div class= "product-img-checkout">
+            <a href="https://pin.it/6VLsk0Iip" class= "img-checkout">
+              <img src="img/coffee-product.jpg">
+            </a>
+          </div>
+          <div class= "product-checkout-description">
+            <h2>Family Blend</h2>
+            <h3>$25.00</h3>
+            <!--Referenced from https://codepen.io/ChynoDeluxe/pen/poyNEay-->
+            <div class="qty-input">
+                <label for="product-qty">Quantity:</label>
+            	<input class="product-qty" id="product-qty" type="number" name="product-qty" min="0" max="10" value="1">
+            </div>
+          </div>
+        </div>
+        <div class= "checkout-product-container">
+          <div class="product-img-checkout">
+          <a href="https://pin.it/22aHSy1xW" class= "img-checkout">
+            <img src="img/mug-product.jpg">
+          </a>
+        </div>
+        <div class= "product-checkout-description">
+          <h2>Coffee Mug</h2>
+          <h3>$15.00</h3>
+          <div class="qty-input">
+              <label for="product-qty">Quantity:</label>
+            <input class="product-qty" id="product-qty" type="number" name="product-qty" min="0" max="10" value="1">
+          </div>
+        </div>
+      </div>
+      <div class= "checkout-product-container">
+        <div class="total">
+        <h2>Subtotal:</h2>
+        <h3>$40.00</h3>
+      </div>
+      </div>
+        <a href="#" class= "payment-button">Proceed to Payment >></a>
+      </div>
+
+      </section>
+
+    </section>
+    <!-- // COMBINED ELEMENTS SECTION -->
+
+    <section id="brand-elements">
+      <h2>Brand Elements</h2>
+      <section class="element">
+
+        <h3>Inspiration Images Moodboard</h3>
+          <img src="img/inspo-moodboard.png" class= "moodboard">
+
+      </section>
+
+      <section class="element">
+
+        <h3>Colour Palette</h3>
+          <img src="img/colour-palette.png">
+
+      </section>
+
+      <section class="element">
+
+        <h3>Fonts</h3>
+          <h1> The Roost </h1>
+          <h2> Headings </h2>
+          <h3> Sub Heading </h3>
+          <p> Body Text </p>
+          <h6> Captions </h6>
+
+
+      </section>
+
+    </section>
+
+  </body>
+  <footer>
+    <div class="footer-container">
+      <div class= "footer-element" id = "CompName">
+    <h1>The Roost</h1>
+  </div>
+  <div class="footer-element" id="nav-footer">
+    <h3 id="nav-title-footer">Navigation</h3>
+    <div id="nav-button-footer">
+      <a href="#about" class= "nav-button">About</a> <br>
+      <a href="#interactive_elements" class= "nav-button">Interactive Elements</a> <br>
+      <a href="#text_elements" class= "nav-button">Text Elements</a> <br>
+      <a href="#combined_elements" class= "nav-button">Combined Elements</a> <br>
+      <a href="#brand-elements" class= "nav-button">Branding</a> <br>
+      <a href= "./citations.html" class= "nav-button">Citations</a> <br>
+      <a href="./product-listings.html" class= "nav-button">Templates</a>
+  </div>
+  </div>
+    <div class= "footer-element" id="comment-footer">
+    <form class= "text-input-with-label" method="post" action="#">
+      <label for="form-comment">Tell Us How We're Doing:</label> <br>
+      <input type="text" id="form-comment" class= "text-input" placeholder="Type your message here...">
+      <input type="submit" class= "input-button" value="Send">
+    </form>
+  </div>
+</div>
+  </footer>
+</html>
