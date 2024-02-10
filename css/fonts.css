@@ -1,32 +1,36 @@
+/* for the main heading */
 @font-face {
-	font-family: 'Kodchasan';
-	font-weight: normal;
-	font-style: normal;
-	src: url('../fonts/Kodchasan-Regular.ttf') format('truetype');
+	font-family: 'Unbounded';
+	font-weight: bold;
+	font-style: bold;
+	src: url('../fonts/Unbounded-VariableFont_wght.ttf') format('truetype');
 }
 
+/* for subheadings */
 @font-face {
-	font-family: 'JejuMyeongjo';
+	font-family: 'Gopher';
 	font-weight: normal;
 	font-style: normal;
-	src: url('../fonts/JejuMyeongjo-Regular.ttf') format('truetype');
+	src: url('../fonts/GopherText-Regular.ttf') format('truetype');
 }
 
+/* for body text */
 @font-face {
-	font-family: 'PlayfairDisplay';
+	font-family: 'ApfelGrotezk';
 	font-weight: normal;
 	font-style: normal;
-	src: url('../fonts/PlayfairDisplay-Regular.ttf') format('truetype');
+	src: url('../fonts/ApfelGrotezk-Regular.ttf') format('truetype');
 }
 
+/* for captions */
 @font-face {
-	font-family: 'WorkSans';
+	font-family: 'Radian';
 	font-weight: normal;
 	font-style: normal;
-	src: url('../fonts/WorkSans-Regular.ttf') format('truetype');
+	src: url('../fonts/Radian-Regular.ttf') format('truetype');
 }
 
-@font-face {
+/* @font-face {
 	font-family: 'WorkSansMedium';
 	font-weight: normal;
 	font-style: normal;
@@ -38,4 +42,4 @@
 	font-weight: normal;
 	font-style: normal;
 	src: url('../fonts/MagilioRegular-Yzv2O.ttf') format('truetype');
-}
+} */
