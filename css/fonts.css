@@ -19,7 +19,7 @@
 	font-family: 'ApfelGrotezk';
 	font-weight: normal;
 	font-style: normal;
-	src: url('../fonts/ApfelGrotezk-Regular.ttf') format('truetype');
+	src: url('../fonts/ApfelGrotezk-Regular.otf') format('opentype');
 }
 
 /* for captions */
