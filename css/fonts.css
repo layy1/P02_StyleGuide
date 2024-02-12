@@ -1,5 +1,5 @@
 /* for the main heading */
-//font from https://fonts.google.com/specimen/Unbounded
+/* font from https://fonts.google.com/specimen/Unbounded */
 @font-face {
 	font-family: 'Unbounded';
 	font-weight: bold;
@@ -8,7 +8,7 @@
 }
 
 /* for subheadings */
-// font from: https://ifonts.xyz/gopher-font-family.html
+/* font from: https://ifonts.xyz/gopher-font-family.html */
 @font-face {
 	font-family: 'Gopher';
 	font-weight: normal;
@@ -17,7 +17,7 @@
 }
 
 /* for body text */
-//font from https://www.collletttivo.it/typefaces/apfel-grotezk
+/* font from https://www.collletttivo.it/typefaces/apfel-grotezk */
 @font-face {
 	font-family: 'ApfelGrotezk';
 	font-weight: normal;
@@ -26,7 +26,7 @@
 }
 
 /* for captions */
-//font from https://www.dafontfree.co/radian-font/
+/* font from https://www.dafontfree.co/radian-font/ */
 @font-face {
 	font-family: 'Radian';
 	font-weight: normal;
