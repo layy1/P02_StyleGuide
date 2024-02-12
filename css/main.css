@@ -5,18 +5,17 @@ body {
   margin-left: 5rem;
   margin-right: 5rem;
   font-family: "ApfelGrotezk";
-  /* color: #8597B1; */
 }
 
 .element {
   padding-bottom: 2rem;
   border-top-width: 0.15rem;
   border-top-style: solid;
-  border-top-color: #8597B1;
+  border-top-color: #6F826A;
 }
 
 footer {
-  background-color: #8597B1;
+  background-color: #6F826A;
   position: absolute;
   height: 25rem;
       bottom: 100;
