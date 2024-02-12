@@ -1,20 +1,22 @@
 body {
   padding: 2rem;
-  background-color: #F8F3EA;
+  background-color: #E1DCD9;
   font-size: 16px;
   margin-left: 5rem;
   margin-right: 5rem;
+  font-family: "ApfelGrotezk";
+  /* color: #8597B1; */
 }
 
 .element {
   padding-bottom: 2rem;
   border-top-width: 0.15rem;
   border-top-style: solid;
-  border-top-color: #E6D8C7;
+  border-top-color: #8597B1;
 }
 
 footer {
-  background-color: #E6D8C7;
+  background-color: #8597B1;
   position: absolute;
   height: 25rem;
       bottom: 100;
@@ -27,38 +29,39 @@ footer {
 /* Texts */
 
 h1 {
-  font-family: "Magilio";
+  font-family: "Unbounded";
   font-size: 4rem;
   margin-bottom: 1rem;
-  color: #0B1957;
+  /* color: #8597B1; */
 }
 
 h2 {
-  font-family: "PlayfairDisplay";
-  color: #0B1957;
+  font-family: "Gopher";
+  /* color: #8597B1; */
 }
 
 h3 {
-  font-family: "PlayfairDisplay";
+  font-family: "Gopher";
   /* font-style: italic; */
   margin-top: 1rem;
-  color: #0B1957;
+  /* color: #8597B1; */
 }
 
 h4 {
-  font-family: "PlayfairDisplay";
+  font-family: "Gopher";
   margin-top: 1rem;
-  color: #0B1957;
+  /* color: #8597B1; */
 }
 
 h6 {
-  font-family: "WorkSans";
+  font-family: "Gopher";
   margin-bottom: 0.25rem;
   opacity: 0.8;
 }
 
 p {
-  font-family:"WorkSans";
+  /* font-family:"ApfelGrotezk"; */
+  color: black;
   margin-top: 0;
 }
 
@@ -73,15 +76,15 @@ header {
 }
 
 label {
-  font-family: "WorkSansMedium";
-  color: #0B1957;
+  /* font-family: "ApfelGrotezk"; */
+  /* color: #0B1957; */
   padding-right: 0.5rem;
 }
 
 
 /* List Content */
 li {
-  font-family: "WorkSans"
+  /* font-family: "ApfelGrotezk" */
 }
 
 
@@ -102,10 +105,10 @@ nav a:hover, nav a:focus {
 }
 
 .nav-button {
-  font-family: "WorkSansMedium";
+  /* font-family: "ApfelGrotezk"; */
   display: inline-block;
   padding: 0.7rem;
-  color: #0B1957;
+  color: #6F826A;
   text-decoration: none;
   transition-property: background-color;
   transition-duration: 0.5s;
@@ -113,11 +116,11 @@ nav a:hover, nav a:focus {
 }
 
 .nav-button:hover {
-  color: #9ECCFA;
+  color: #505B4D;
 }
 
 .nav-button:focus {
-  color: #45A3FF;
+  color: #505B4D;
 }
 
 .nav-menu {
@@ -128,11 +131,11 @@ nav a:hover, nav a:focus {
 
 /* Submit/Reset Buttons */
 .submit-button {
-  font-family: "WorkSans";
+  /* font-family: "ApfelGrotezk"; */
   display: inline-block;
   padding: 0.5rem;
   color: white;
-  background-color: #0B1957;
+  background-color: #6F826A;
   text-decoration: none;
   transition-property: background-color;
   transition-duration: 0.5s;
@@ -144,43 +147,43 @@ nav a:hover, nav a:focus {
 }
 
 .submit-button:hover {
-  background-color: #9ECCFA;
+  background-color: #505B4D;
 }
 
 .submit-button:focus {
-  background-color: #45A3FF;
+  background-color: #505B4D;
 }
 
 .reset-button {
-  font-family: "WorkSans";
+  /* font-family: "ApfelGrotezk"; */
   display: inline-block;
   padding: 0.5rem;
   color: white;
-  background-color: #0B1957;;
+  background-color: #6F826A;;
   text-decoration: none;
   transition-property: background-color;
   transition-duration: 0.5s;
-  border-radius: 0.5rem;
+  border-radius: 1.5rem;
   font-size: 1rem;
   padding-left: 0.9rem;
   padding-right: 0.9rem;
 }
 
 .reset-button:hover {
-  background-color: #9ECCFA;
+  background-color: #505B4D;
 }
 
 .reset-button:focus {
-  background-color: #45A3FF;
+  background-color: #505B4D;
 }
 
 /* Form/Comment Elements */
 
 .input-button {
-  font-family: "WorkSans";
+  /* font-family: "ApfelGrotezk"; */
   display: inline-block;
   color: white;
-  background-color: #0B1957;
+  background-color: #6F826A;
   text-decoration: none;
   transition-property: background-color;
   transition-duration: 0.5s;
@@ -189,21 +192,21 @@ nav a:hover, nav a:focus {
   padding-right: 0.9rem;
   padding-top: 0.3rem;
   padding-bottom: 0.3rem;
-  border-radius: 0.5rem;
+  border-radius: 1.5rem;
   margin-top: 1rem;
   margin-left: 0.2rem;
 }
 
 .input-button:hover {
-  background-color: #9ECCFA;
+  background-color: #505B4D;
 }
 
 .input-button:focus {
-  background-color: #45A3FF;
+  background-color: #505B4D;
 }
 
 .text-input {
-  font-family: "WorkSans";
+  /* font-family: "ApfelGrotezk"; */
   padding-left: 0.7rem;
   padding-right: 0.7rem;
   padding-top: 0.3rem;
@@ -223,11 +226,11 @@ nav a:hover, nav a:focus {
 }
 
 .text-input:hover {
-background-color: #9ECCFA;
+background-color: #8597B1;
 }
 
 .text-input:focus {
-  outline: 0.1rem solid #0B1957;
+  outline: 0.1rem solid #6F826A;
 }
 
 
@@ -235,10 +238,10 @@ background-color: #9ECCFA;
 /* Buttons */
 
 .button {
-  font-family: "WorkSans";
+  /* font-family: "ApfelGrotezk"; */
   display: inline-block;
   padding: 0.5rem;
-  background-color: #0B1957;
+  background-color: #6F826A;
   color: white;
   padding-left: 0.9rem;
   padding-right: 0.9rem;
@@ -251,11 +254,11 @@ background-color: #9ECCFA;
 }
 
 .button:hover {
-  background-color: #9ECCFA;
+  background-color: #505B4D;
 }
 
 .button:focus {
-  background-color: #45A3FF;
+  background-color: #505B4D;
 }
 
 /*  Checkout Elements */
@@ -286,7 +289,7 @@ background-color: #9ECCFA;
   align-items: center;
   border-top-width: 0.15rem;
   border-top-style: solid;
-  border-top-color: #E6D8C7;
+  border-top-color: #505B4D;
   padding: 0.5rem;
 }
 
@@ -304,10 +307,10 @@ background-color: #9ECCFA;
 }
 
 .payment-button {
-    font-family: "WorkSans";
+    /* font-family: "ApfelGrotezk"; */
     display: inline-block;
     padding: 0.5rem;
-    background-color: #0B1957;
+    background-color: #6F826A;
     color: white;
     padding-left: 0.9rem;
     padding-right: 0.9rem;
@@ -321,11 +324,11 @@ background-color: #9ECCFA;
   }
 
   .payment-button:hover {
-    background-color: #9ECCFA;
+    background-color: #505B4D;
   }
 
   .payment-button:focus {
-    background-color: #45A3FF;
+    background-color: #505B4D;
   }
 
   .payment-form {
@@ -370,9 +373,9 @@ background-color: #9ECCFA;
 /* Radio Buttons */
 
 .radio {
-  accent-color: #9ECCFA;
+  accent-color: #505B4D;
   padding-top: 0.5rem;
-  border: 0.2rem solid #0B1957;
+  border: 0.2rem solid #6F826A;
   border-radius: 50%;
   align-items: center;
   height:0.8rem;
@@ -393,7 +396,7 @@ background-color: #9ECCFA;
 }
 
 .firstname-input {
-    font-family: "WorkSans";
+    /* font-family: "ApfelGrotezk"; */
     padding-left: 0.7rem;
     padding-right: 0.7rem;
     padding-top: 0.3rem;
@@ -406,15 +409,15 @@ background-color: #9ECCFA;
 }
 
 .firstname-input:hover {
-  background-color: #9ECCFA;
+  background-color: #505B4D;
 }
 
 .firstname-input:focus {
-  outline: 0.1rem solid #0B1957;
+  outline: 0.1rem solid #6F826A;
 }
 
 .lastname-input {
-  font-family: "WorkSans";
+  /* font-family: "ApfelGrotezk"; */
   padding-left: 0.7rem;
   padding-right: 0.7rem;
   padding-top: 0.3rem;
@@ -427,11 +430,11 @@ background-color: #9ECCFA;
 }
 
 .lastname-input:focus {
-outline: 0.1rem solid #0B1957;
+outline: 0.1rem solid #6F826A;
 }
 
 .lastname-input:hover {
-background-color: #9ECCFA;
+background-color: #505B4D;
 }
 
 .first-name {
@@ -450,7 +453,7 @@ background-color: #9ECCFA;
   min-width: 20rem;
   margin-top: 0.8rem;
   margin-left: 0.2rem;
-  font-family: "WorkSans";
+  /* font-family: "ApfelGrotezk"; */
   padding-left: 0.7rem;
   padding-right: 0.7rem;
   padding-top: 0.3rem;
@@ -462,7 +465,7 @@ background-color: #9ECCFA;
 }
 
 .email-add:hover {
-background-color: #9ECCFA;
+background-color: #505B4D;
 }
 
 .city-input{
@@ -470,7 +473,7 @@ background-color: #9ECCFA;
   min-width: 20rem; */
   width: 15rem;
   margin-top: 0.8rem;
-  font-family: "WorkSans";
+  /* font-family: "ApfelGrotezk"; */
   padding-left: 0.7rem;
   padding-right: 0.7rem;
   padding-top: 0.3rem;
@@ -486,7 +489,7 @@ background-color: #9ECCFA;
   min-width: 20rem; */
   width:15rem;
   margin-top: 0.8rem;
-  font-family: "WorkSans";
+  /* font-family: "ApfelGrotezk"; */
   padding-left: 0.7rem;
   padding-right: 0.7rem;
   padding-top: 0.3rem;
@@ -498,17 +501,17 @@ background-color: #9ECCFA;
 }
 
 .postal-input:focus {
-outline: 0.1rem solid #0B1957;
+outline: 0.1rem solid #6F826A;
 }
 .city-input:focus {
-outline: 0.1rem solid #0B1957;
+outline: 0.1rem solid #6F826A;
 }
 
 .postal-input:hover {
 background-color: #9ECCFA;
 }
 .city-input:hover {
-background-color: #9ECCFA;
+background-color: #505B4D;
 }
 
 /* Product Listing */
@@ -541,7 +544,7 @@ padding-top: 3rem;
 .product-qty{
   margin-left: -0.4rem;
   width: 2rem;
-  font-family: "WorkSans"
+  /* font-family: "ApfelGrotezk" */
 }
 
 /* product listings */
@@ -559,7 +562,7 @@ padding-top: 3rem;
 .product-container{
   border-bottom-width: 0.15rem;
   border-bottom-style: solid;
-  border-bottom-color: #E6D8C7;
+  border-bottom-color: #505B4D;
   flex-grow:1;
   align-items: center;
   padding:0.5rem;
