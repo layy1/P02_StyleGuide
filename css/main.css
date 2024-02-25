@@ -648,6 +648,10 @@ padding-top: 3rem;
   color: black;
 }
 
+#footer-comment-label {
+  color: black;
+}
+
 #about {
   margin-bottom: 3rem;
   margin-top: -1rem;
