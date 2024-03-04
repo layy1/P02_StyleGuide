@@ -1,12 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<html>
+<html lang="en" xml:lang="en">
 
   <head>
 
     <meta charset="utf-8">
-    <title>LA RÉB DESIGN STUDIO About</title>
+    <title>LA-RÉB DESIGN STUDIO</title>
 
 
     <link href="css/main.css" rel="stylesheet">
@@ -18,18 +16,18 @@
   <body>
     <section>
     <header>
-      <h1>LA RÉB DESIGN STUDIO</h1>
+      <h1>LA-RÉB DESIGN STUDIO</h1>
 
 <!-- NAVIGATION LINK / MENU -->
 
-      <nav class= "nav-menu">
-        <a href="./about.html" class= "nav-button">About</a>
-        <!-- <a href="./index.html" class= "nav-button">Home</a> -->
-        <a href="./index.html" class= "nav-button">Home</a>
-        <a href="./checkout.html" class= "nav-button">Cart</a>
-        <!-- <a href="./contact-us.html" class= "nav-button">Contact Us</a> -->
-        <a href="./styleguide.html" class= "nav-button">Styleguide</a>
-      </nav>
+<nav class= "nav-menu">
+  <a href="./index.html" class= "nav-button">Home</a>
+  <a href="./product-listings.html" class= "nav-button">Shop</a>
+  <a href="./checkout.html" class= "nav-button">Cart</a>
+  <a href="./about.html" class= "nav-button">About</a>
+  <!-- <a href="./contact-us.html" class= "nav-button">Contact Us</a> -->
+  <a href="./styleguide.html" class= "nav-button">Styleguide</a>
+</nav>
   <section class = "element"> </section>
     </header>
 </section>
@@ -51,30 +49,62 @@
 
 </section>
 
+<div class= "contact-form">
+  <h2>Send us an email!</h2>
+  <form method="submit" action="#">
+    <div class= "first-last-name-container">
+    <div class= "first-name">
+    <label for="first-name">First Name:</label>
+    <input type="text" id="first-name" class= "firstname-input" placeholder="John">
+  </div>
+  <div class="last-name">
+    <label for="last-name">Last Name:</label>
+    <input type="text" id="last-name" class= "lastname-input" placeholder="Smith">
+  </div>
+  </div>
+  </form>
+  <form method= "submit" action= "#">
+    <label for="email-add">Email Address:</label>
+    <input type="text" id="email-add" class= "email-add" placeholder="JohnSmith@email.com">
+  </form>
+  <form method= "submit" action= "#">
+    <label for="subject">Subject Line:</label>
+    <input type="text" id="subject" class= "email-add" placeholder="e.g. Design Inquiry">
+  </form>
+  <!-- class= "email-add" because styled the same way as email address input -->
+  <form method= "submit" action= "#">
+    <label for="email-content">Email Content:</label>
+    <input type="text" id="email-content" class= "email-add" placeholder="body of email here">
+  </form>
+
+  <a href="./index.html" class="button" id="email-submit">Send</a>
+</div>
+
     </body>
     <footer>
-      <div class="footer-container">
-        <div class= "footer-element" id = "CompName">
-      <h1>LA RÉB DESIGN STUDIO</h1>
-    </div>
-    <div class="footer-element" id="nav-footer">
-      <h3 id="nav-title-footer">Navigation</h3>
-      <div id="nav-content-footer">
-      <a href="./about.html" class= "nav-button" id="nav-button-footer" >About</a> <br>
-      <a href="./index.html" class= "nav-button" id="nav-button-footer" >Home</a> <br>
-      <a href="./product-listings.html" class= "nav-button" id="nav-button-footer">Shop</a> <br>
-      <a href="./checkout.html" class= "nav-button" id="nav-button-footer">Cart</a> <br>
-      <a href="./contact-us.html" class= "nav-button" id="nav-button-footer>Contact Us</a> <br>
-      <a href="./styleguide.html" class= "nav-button" id="nav-button-footer>Styleguide</a>
-    </div>
-    </div>
-      <div class= "footer-element" id="comment-footer">
-      <form class= "text-input-with-label" method="post" action="#">
-        <label for="form-comment" id="footer-comment-label">Tell Us How We're Doing:</label> <br>
-        <input type="text" id="form-comment" class= "text-input" placeholder="Type your message here...">
-        <input type="submit" class= "input-button" value="Send">
-      </form>
-    </div>
-  </div>
-    </footer>
-    </html>
+          <div class="footer-container">
+            <div class= "footer-element" id = "CompName">
+          <h1 id="footer-title">LA-RÉB DESIGN STUDIO</h1>
+        </div>
+        <div class="footer-element" id="nav-footer">
+          <h3 id="nav-title-footer">Navigation</h3>
+          <div id="nav-content-footer">
+          <a href="./about.html" class= "nav-button" id="nav-button-footer" >About</a> <br>
+          <a href="./index.html" class= "nav-button" id="nav-button-footer" >Home</a> <br>
+          <a href="./product-listings.html" class= "nav-button" id="nav-button-footer">Shop</a> <br>
+          <a href="./checkout.html" class= "nav-button" id="nav-button-footer">Cart</a> <br>
+          <a href="./contact-us.html" class= "nav-button" id="nav-button-footer>Contact Us</a> <br>
+          <a href="./styleguide.html" class= "nav-button" id="nav-button-footer>Styleguide</a>
+        </div>
+        </div>
+          <div class= "footer-element" id="comment-footer">
+          <form class= "text-input-with-label" method="post" action="#">
+            <label for="form-comment" id="footer-comment-label">Tell Us How We're Doing:</label> <br>
+            <input type="text" id="form-comment" class= "text-input" placeholder="Type your message here...">
+            <input type="submit" class= "input-button" value="Send">
+          </form>
+        </div>
+      </div>
+        </footer>
+
+        </html>
