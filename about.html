@@ -28,11 +28,11 @@
   <!-- <a href="./contact-us.html" class= "nav-button">Contact Us</a> -->
   <a href="./styleguide.html" class= "nav-button">Styleguide</a>
 </nav>
-  <section class = "element"> </section>
+  <section class = "divider"> </section>
     </header>
 </section>
 
-<section id="about">
+<section class="about">
 <h2>About LA RÉB DESIGN STUDIO</h2>
 
   <p>
@@ -53,28 +53,27 @@
   <h2>Send us an email!</h2>
   <form method="submit" action="#">
     <div class= "first-last-name-container">
-    <div class= "first-name">
+    <div class="name-div">
     <label for="first-name">First Name:</label>
-    <input type="text" id="first-name" class= "firstname-input" placeholder="John">
-  </div>
-  <div class="last-name">
+    <input type="text" id="first-name" class= "name-input" placeholder="John">
+    </div>
+  <div class="name-div">
     <label for="last-name">Last Name:</label>
-    <input type="text" id="last-name" class= "lastname-input" placeholder="Smith">
+    <input type="text" id="last-name" class= "name-input" placeholder="Smith">
   </div>
   </div>
-  </form>
-  <form method= "submit" action= "#">
+  <div>
     <label for="email-add">Email Address:</label>
-    <input type="text" id="email-add" class= "email-add" placeholder="JohnSmith@email.com">
-  </form>
-  <form method= "submit" action= "#">
+    <input type="text" id="email-add" class= "input" placeholder="JohnSmith@email.com">
+  </div>
+  <div>
     <label for="subject">Subject Line:</label>
-    <input type="text" id="subject" class= "email-add" placeholder="e.g. Design Inquiry">
-  </form>
-  <!-- class= "email-add" because styled the same way as email address input -->
-  <form method= "submit" action= "#">
+    <input type="text" id="subject" class= "input" placeholder="e.g. Design Inquiry">
+  </div>
+  <div>
     <label for="email-content">Email Content:</label>
-    <input type="text" id="email-content" class= "email-add" placeholder="body of email here">
+    <input type="text" id="email-content" class= "input" placeholder="body of email here">
+  </div>
   </form>
 
   <a href="./index.html" class="button" id="email-submit">Send</a>
@@ -93,10 +92,10 @@
           <a href="./index.html" class= "nav-button" id="nav-button-footer" >Home</a> <br>
           <a href="./product-listings.html" class= "nav-button" id="nav-button-footer">Shop</a> <br>
           <a href="./checkout.html" class= "nav-button" id="nav-button-footer">Cart</a> <br>
-          <a href="./contact-us.html" class= "nav-button" id="nav-button-footer>Contact Us</a> <br>
-          <a href="./styleguide.html" class= "nav-button" id="nav-button-footer>Styleguide</a>
+          <!-- <a href="./contact-us.html" class= "nav-button" id="nav-button-footer>Contact Us</a> <br> -->
+          <a href="./styleguide.html" class= "nav-button" id="nav-button-footer">Styleguide</a>
         </div>
-        </div>
+        <!-- </div> -->
           <div class= "footer-element" id="comment-footer">
           <form class= "text-input-with-label" method="post" action="#">
             <label for="form-comment" id="footer-comment-label">Tell Us How We're Doing:</label> <br>
@@ -105,6 +104,7 @@
           </form>
         </div>
       </div>
+    </div>
         </footer>
 
         </html>
