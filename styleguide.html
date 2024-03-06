@@ -95,15 +95,15 @@
         <h3>Submit/Reset Buttons</h3>
 
         <h4>CSS selector:</h4>
-        <p>.submit-button</p>
-        <p>.reset-button</p>
+        <p>.button</p>
+        <p>.button</p>
 
         <h4>Sample code:</h4>
-        <code>&lt;a href="#" class="submit-button"&gt;Submit&lt;/a&gt;</code>
+        <code>&lt;a href="#" class="button"&gt;Submit&lt;/a&gt;</code>
 
         <h4>Rendered element:</h4>
-        <a href="#" class= "submit-button">Submit</a>
-        <a href="#" class= "reset-button">Reset</a>
+        <a href="#" class= "button">Submit</a>
+        <a href="#" class= "button">Reset</a>
 
       </section>
 
@@ -120,7 +120,7 @@
             <br>
             &nbsp;&lt;label for="form-comment""&gt;Label::&lt;/label&gt;
             <br>
-            &nbsp;&lt;input type="text" id="form-comment" class= "text-input" placeholder="Text Input"&gt;
+            &nbsp;&lt;input type="text" id="form-comment" class= "input" placeholder="Text Input"&gt;
             <br>
             &nbsp;&lt;input type="submit" value="Send""&gt;
             <br>
@@ -131,8 +131,8 @@
         <h4>Rendered element:</h4>
         <form class= "text-input-with-label" method="post" action="#">
           <label for="form-comment">Leave Us a Comment:</label> <br>
-          <input type="text" id="form-comment" class= "text-input" placeholder="Text Input">
-          <input type="submit" class= "input-button" value="Send">
+          <input type="text" name="form-comment" class= "input" placeholder="Text Input">
+          <input type="submit" class= "button" value="Send">
         </form>
       </section>
 
@@ -145,15 +145,12 @@
 
         <h4>Sample code:</h4>
         <code>
-          &lt;input type="radio" class= "Radio" name="" value=""&gt;<br>
-            &nbsp;&lt;label for=""&gt;Button&lt;/label&gt;
+          &lt;input type="radio" class= "Radio" name="" value=""&gt; Label<br>
         </code>
 
         <h4>Rendered element:</h4>
-        <input type="radio" class= "radio" name="" value="">
-        <label for="">Radio</label>
-        <input type="radio" class= "radio" name="" value="">
-        <label for="">Button</label>
+        <input type="radio" class= "radio" name="radio-example" value=""> Radio
+        <input type="radio" class= "radio" name="radio-example" value=""> Button
 
       </section>
 
@@ -444,7 +441,7 @@
           <br>
           &nbsp;&lt;br&gt;
           <br>
-          &nbsp;&lt;input type="submit" class="input-button" value="Confirm Payment"&gt;
+          &nbsp;&lt;input type="submit" class="button" value="Confirm Payment"&gt;
           <br>
           &lt;/div&gt;
 
@@ -455,37 +452,37 @@
           <h2>Payment Form</h2>
           <form method="submit" action="#">
             <div class= "first-last-name-container">
-            <div class= "first-name">
-            <label for="form-comment">First Name:</label>
-            <input type="text" id="form-comment" class= "firstname-input" placeholder="John">
-          </div>
-          <div class="last-name">
-            <label for="form-comment">Last Name:</label>
-            <input type="text" id="form-comment" class= "lastname-input" placeholder="Smith">
+            <div class="name-div">
+            <label for="first-name">First Name:</label>
+            <input type="text" id="first-name" class= "name-input" placeholder="John">
+            </div>
+          <div class="name-div">
+            <label for="last-name">Last Name:</label>
+            <input type="text" id="last-name" class= "name-input" placeholder="Smith">
           </div>
           </div>
           </form>
           <form method= "submit" action= "#">
             <label for="form-comment">Email Address:</label>
-            <input type="text" id="form-comment" class= "email-add" placeholder="JohnSmith@email.com">
+            <input type="text" name="form-comment" class= "input" placeholder="JohnSmith@email.com">
           </form>
           <form method= "submit" action= "#">
             <label for="form-comment">Phone Number:</label>
-            <input type="text" id="form-comment" class= "email-add" placeholder="XXX-XXX-XXX">
+            <input type="text" name="form-comment" class= "input" placeholder="XXX-XXX-XXX">
           </form>
           <form method= "submit" action= "#">
             <label for="form-comment">Address:</label>
-            <input type="text" id="form-comment" class= "email-add" placeholder="Address Line 1">
-            <input type="text" id="form-comment" class= "email-add" placeholder="Address Line 2">
+            <input type="text" name="form-comment" class= "input" placeholder="Address Line 1">
+            <input type="text" name="form-comment" class= "input" placeholder="Address Line 2">
           </form>
 
           <form method="submit" action="#">
             <label for="form-comment">City:</label>
-            <input type="text" id="form-comment" class= "city-input" placeholder="City">
+            <input type="text" name="form-comment" class= "input" placeholder="City">
           </form>
           <form method="submit" action="#">
             <label for="form-comment">Postal Code:</label>
-            <input type="text" id="form-comment" class= "postal-input" placeholder="Postal Code">
+            <input type="text" name="form-comment" class= "input" placeholder="Postal Code">
           </form>
           <h3>Select Payment Type</h3>
           <input type="radio" class= "radio" name="" value="">
@@ -497,7 +494,7 @@
           <input type="radio" class= "radio" name="" value="">
           <label for="">Other</label>
           <br>
-          <input type="submit" class= "input-button" value="Confirm Payment">
+          <a href="#" class="button">Confirm Payment</a>
         </div>
 
       </section>
@@ -568,7 +565,7 @@
           <br>
           &nbsp;&lt;/div&gt;
           <br>
-          &lt;a href="#" class="payment-button"&gt;Proceed to Payment >>&lt;/a&gt;
+          &lt;a href="#" class="button"&gt;Proceed to Payment >>&lt;/a&gt;
         </code>
 
         <h4>Rendered element:</h4>
@@ -585,7 +582,7 @@
             <!--Referenced from https://codepen.io/ChynoDeluxe/pen/poyNEay-->
             <div class="qty-input">
                 <label for="product-qty">Quantity:</label>
-            	<input class="product-qty" id="product-qty" type="number" name="product-qty" min="0" max="10" value="1">
+            	<input class="product-qty" type="number" name="product-qty" min="0" max="10" value="1">
             </div>
           </div>
         </div>
@@ -600,7 +597,7 @@
           <h3>$30.00</h3>
           <div class="qty-input">
               <label for="product-qty">Quantity:</label>
-            <input class="product-qty" id="product-qty" type="number" name="product-qty" min="0" max="10" value="1">
+            <input class="product-qty" type="number" name="product-qty" min="0" max="10" value="1">
           </div>
         </div>
       </div>
@@ -610,7 +607,7 @@
         <h3>$40.00</h3>
       </div>
       </div>
-        <a href="#" class= "payment-button">Proceed to Payment >></a>
+      <a href="#" class="button" id="payment-button">Proceed to Payment Form</a>
       </div>
 
       </section>
@@ -667,7 +664,7 @@
         <div class= "footer-element" id="comment-footer">
         <form class= "text-input-with-label" method="post" action="#">
           <label for="form-comment" id="footer-comment-label">Tell Us How We're Doing:</label> <br>
-          <input type="text" id="form-comment" class= "text-input" placeholder="Type your message here...">
+          <input type="text" id="form-comment" class= "input" placeholder="Type your message here...">
           <input type="submit" class= "input-button" value="Send">
         </form>
       </div>

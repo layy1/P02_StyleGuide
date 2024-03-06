@@ -34,52 +34,46 @@
     </header>
 </section>
 
-<div class= "payment-form">
   <h2>Payment Form</h2>
+  <div class= "payment-form">
   <form method="submit" action="#">
-    <div class= "first-last-name-container">
-    <div class= "first-name">
-    <label for="first-name">First Name:</label>
-    <input type="text" id="first-name" class= "firstname-input" placeholder="John">
-  </div>
-  <div class="last-name">
-    <label for="last-name">Last Name:</label>
-    <input type="text" id="last-name" class= "lastname-input" placeholder="Smith">
-  </div>
-  </div>
-  </form>
-  <form method= "submit" action= "#">
-    <label for="email-add">Email Address:</label>
-    <input type="text" id="email-add" class= "email-add" placeholder="JohnSmith@email.com">
-  </form>
-  <form method= "submit" action= "#">
-    <label for="phone-number">Phone Number:</label>
-    <input type="text" id="phone-number" class= "email-add" placeholder="XXX-XXX-XXX">
-  </form>
-  <!-- class= "email-add" because styled the same way as email address input -->
-  <form method= "submit" action= "#">
-    <label for="address">Address:</label>
-    <input type="text" id="address" class= "email-add" placeholder="Address Line 1">
-    <input type="text" id="address" class= "email-add" placeholder="Address Line 2">
-  </form>
+      <div class= "first-last-name-container">
+      <div class="name-div">
+      <label for="first-name">First Name:</label>
+      <input type="text" name="first-name" class= "name-input" placeholder="John">
+      </div>
+    <div class="name-div">
+      <label for="last-name">Last Name:</label>
+      <input type="text" name="last-name" class= "name-input" placeholder="Smith">
+    </div>
+    </div>
 
-  <form method="submit" action="#">
+    <div>
+      <label for="email-add">Email Address:</label>
+      <input type="text" name="email-add" class= "input" placeholder="JohnSmith@email.com">
+    </div>
+  <div>
+    <label for="phone-number">Phone Number:</label>
+    <input type="text" name="phone-number" class= "input" placeholder="XXX-XXX-XXX">
+  </div>
+    <label for="address">Address:</label>
+    <input type="text" name="address" class= "input" placeholder="Address Line 1">
+    <input type="text" name="address" class= "input" placeholder="Address Line 2">
+
+    <div>
     <label for="city">City:</label>
-    <input type="text" id="city" class= "city-input" placeholder="City">
-  </form>
-  <form method="submit" action="#">
+    <input type="text" name="city" class= "input" placeholder="City">
+  </div>
+
     <label for="postal-code">Postal Code:</label>
-    <input type="text" id="postal-code" class= "postal-input" placeholder="Postal Code">
+    <input type="text" name="postal-code" class= "input" placeholder="Postal Code">
   </form>
   <h3>Select Payment Type</h3>
-  <input type="radio" class= "radio" name="" value="" id="debit-or-credit">
-  <label for="debit-or-credit">Debit/Credit</label>
+  <input type="radio" class= "radio" name="payment" value="debit/credit"> Debit/Credit
   <br>
-  <input type="radio" class= "radio" name="" value="" id= "paypal">
-  <label for="paypal">Paypal</label>
+  <input type="radio" class= "radio" name="payment" value="paypal"> Paypal
   <br>
-  <input type="radio" class= "radio" name="" value="" id= "other-payment">
-  <label for="other-payment">Other</label>
+  <input type="radio" class= "radio" name="payment" value="other-payment"> Other
   <br>
   <a href="./purchased.html" class="button">Confirm Payment</a>
 </div>
@@ -105,7 +99,7 @@
           <div class= "footer-element" id="comment-footer">
           <form class= "text-input-with-label" method="post" action="#">
             <label for="form-comment" id="footer-comment-label">Tell Us How We're Doing:</label> <br>
-            <input type="text" id="form-comment" class= "text-input" placeholder="Type your message here...">
+            <input type="text" id="form-comment" class= "input" placeholder="Type your message here...">
             <input type="submit" class= "input-button" value="Send">
           </form>
         </div>
