@@ -7,7 +7,7 @@ body {
   font-family: "ApfelGrotezk";
 }
 
-.element {
+.divider {
   padding-bottom: 2rem;
   border-top-width: 0.15rem;
   border-top-style: solid;
@@ -28,16 +28,14 @@ footer {
 /* Texts */
 
 h1 {
+  /* align: center;  */
   font-family: "Unbounded";
   font-size: 4rem;
   margin-bottom: 1rem;
-  /* color: #8597B1; */
 }
 
 h2 {
   font-family: "Gopher";
-  /* margin-bottom: 0.25rem; */
-  /* color: #8597B1; */
 }
 
 h3 {
@@ -66,11 +64,7 @@ p {
   margin-top: 0;
 }
 
-code {
-  background-color: #F8F2EF;
-  padding: 0.5rem;
-  display: block;
-}
+code { background-color: #F8F2EF; padding: 0.5rem; display: block;?.m bvcA}
 
 header {
   text-align: center;
@@ -78,30 +72,21 @@ header {
 
 label {
   font-family: "ApfelGrotezk";
-  /* color: #0B1957; */
   padding-right: 0.5rem;
 }
 
 
 /* List Content */
-li {
-  /* font-family: "ApfelGrotezk" */
-}
-
-
-img {
-
-}
 
 .slogan {
   text-align: center;
-  margin-bottom: 4rem;
-  background: #32435F;
+  margin-bottom: 8rem;
+  /* background: #32435F; */
   display: block;
-  margin-left: -10rem;
-  margin-right: -10rem;
+  /* margin-left: -10rem;
+  margin-right: -10rem; */
   padding: 1.5rem;
-  color: #E1DCD9;
+  /* color: #E1DCD9; */
 }
 
 /*
@@ -147,54 +132,6 @@ nav a:hover, nav a:focus {
 
 }
 
-/* Submit/Reset Buttons */
-.submit-button {
-  font-family: "ApfelGrotezk";
-  display: inline-block;
-  padding: 0.5rem;
-  color: white;
-  background-color: #A67F78;
-  text-decoration: none;
-  transition-property: background-color;
-  transition-duration: 0.5s;
-  border: none;
-  border-radius: 1.5rem;
-  font-size: 1rem;
-  padding-left: 0.9rem;
-  padding-right: 0.9rem;
-}
-
-.submit-button:hover {
-  background-color: #A85242;
-}
-
-.submit-button:focus {
-  background-color: #A85242;
-}
-
-.reset-button {
-  font-family: "ApfelGrotezk";
-  display: inline-block;
-  padding: 0.5rem;
-  color: white;
-  background-color: #A67F78;
-  text-decoration: none;
-  transition-property: background-color;
-  transition-duration: 0.5s;
-  border-radius: 1.5rem;
-  font-size: 1rem;
-  padding-left: 0.9rem;
-  padding-right: 0.9rem;
-}
-
-.reset-button:hover {
-  background-color: #A85242;
-}
-
-.reset-button:focus {
-  background-color: #A85242;
-}
-
 /* Form/Comment Elements */
 
 .input-button {
@@ -222,36 +159,6 @@ nav a:hover, nav a:focus {
 .input-button:focus {
   background-color: #A85242;
 }
-
-.text-input {
-  font-family: "ApfelGrotezk";
-  padding-left: 0.7rem;
-  padding-right: 0.7rem;
-  padding-top: 0.3rem;
-  padding-bottom: 0.3rem;
-  border-radius: 1.5rem;
-  border: none;
-  transition-property: background-color;
-  transition-duration: 0.5s;
-  margin-top: 0.5rem;
-  min-width: 20rem;
-  max-width: 30rem;
-}
-
-/*Referenced from: https://stackoverflow.com/questions/27644314/how-to-make-only-placeholder-italics-in-input */
-.text-input:placeholder-shown {
-  font-style: italic;
-}
-
-.text-input:hover {
-background-color: #8597B1;
-}
-
-.text-input:focus {
-  outline: 0.1rem solid #6F826A;
-}
-
-
 
 /* Buttons */
 
@@ -281,10 +188,6 @@ background-color: #8597B1;
 
 /*  Checkout Elements */
 
-.img-checkout {
-
-}
-
 .img-checkout * {
   box-sizing: border-box;
   transition: all 0.45s ease;
@@ -311,53 +214,25 @@ background-color: #8597B1;
   padding: 0.5rem;
 }
 
-.product-img-checkout {
-  align-items: center;
-}
-
 .product-checkout-description {
   align-items: center;
   margin: 2rem;
 }
 
-.total {
-  padding-left: 11rem;
+.payment-form {
+  display: inline-block;
+  border-style: solid;
+  border-radius: 1rem;
+  padding: 1rem;
+  padding-top: 0rem;
+  margin-top: -0.5rem;
+  margin-bottom: 3rem;
 }
 
-.payment-button {
-    font-family: "ApfelGrotezk";
-    display: inline-block;
-    padding: 0.5rem;
-    background-color: #A67F78;
-    color: white;
-    padding-left: 0.9rem;
-    padding-right: 0.9rem;
-    text-decoration: none;
-    transition-property: background-color;
-    transition-duration: 0.5s;
-    border-radius: 1.5rem;
-    font-size: 1rem;
-    margin-left: 11rem;
-    margin-bottom: 3rem;
-  }
-
-  .payment-button:hover {
-    background-color: #A85242;
-  }
-
-  .payment-button:focus {
-    background-color: #A85242;
-  }
-
-  .payment-form {
-    margin-top: -1rem;
-    margin-bottom: 3rem;
-  }
-
-  .checkout{
-    padding-right: 7rem;
-    padding-left: 7rem;
-  }
+.checkout{
+  padding-right: 7rem;
+  padding-left: 7rem;
+}
 
 /* Image Links */
 
@@ -413,60 +288,7 @@ background-color: #8597B1;
   padding-top: 0.9rem;
 }
 
-.firstname-input {
-    font-family: "ApfelGrotezk";
-    padding-left: 0.7rem;
-    padding-right: 0.7rem;
-    padding-top: 0.3rem;
-    padding-bottom: 0.3rem;
-    border-radius: 1.5rem;
-    border: none;
-    flex:1;
-    transition-property: background-color;
-    transition-duration: 0.5s;
-}
-
-.firstname-input:hover {
-  background-color: #505B4D;
-}
-
-.firstname-input:focus {
-  outline: 0.1rem solid #6F826A;
-}
-
-.lastname-input {
-  font-family: "ApfelGrotezk";
-  padding-left: 0.7rem;
-  padding-right: 0.7rem;
-  padding-top: 0.3rem;
-  padding-bottom: 0.3rem;
-  border-radius: 1.5rem;
-  border: none;
-  flex:1;
-  transition-property: background-color;
-  transition-duration: 0.5s;
-}
-
-.lastname-input:focus {
-outline: 0.1rem solid #6F826A;
-}
-
-.lastname-input:hover {
-background-color: #505B4D;
-}
-
-.first-name {
-  max-width: 20rem;
-  flex:1;
-}
-
-.last-name {
-  padding-left: 0.5rem;
-  margin-left: 1rem;
-  max-width: 20rem;
-}
-
-.email-add {
+.input {
   max-width: 60rem;
   min-width: 20rem;
   margin-top: 0.8rem;
@@ -478,19 +300,14 @@ background-color: #505B4D;
   padding-bottom: 0.3rem;
   border-radius: 1.5rem;
   border: none;
+  flex:1;
   transition-property: background-color;
   transition-duration: 0.5s;
 }
 
-.email-add:hover {
-background-color: #505B4D;
-}
 
-.city-input{
-  /* max-width: 60rem;
-  min-width: 20rem; */
-  width: 15rem;
-  margin-top: 0.8rem;
+
+.name-input {
   font-family: "ApfelGrotezk";
   padding-left: 0.7rem;
   padding-right: 0.7rem;
@@ -498,41 +315,32 @@ background-color: #505B4D;
   padding-bottom: 0.3rem;
   border-radius: 1.5rem;
   border: none;
+  flex:1;
   transition-property: background-color;
   transition-duration: 0.5s;
 }
 
-.postal-input {
-  /* max-width: 60rem;
-  min-width: 20rem; */
-  width:15rem;
-  margin-top: 0.8rem;
-  font-family: "ApfelGrotezk";
-  padding-left: 0.7rem;
-  padding-right: 0.7rem;
-  padding-top: 0.3rem;
-  padding-bottom: 0.3rem;
-  border-radius: 1.5rem;
-  border: none;
-  transition-property: background-color;
-  transition-duration: 0.5s;
+.name-input:hover {
+  background-color: #505B4D;
 }
 
-.postal-input:focus {
-outline: 0.1rem solid #6F826A;
-}
-.city-input:focus {
-outline: 0.1rem solid #6F826A;
+.name-input:focus{
+  outline: 0.1rem solid #6F826A;
 }
 
-.postal-input:hover {
-background-color: #9ECCFA;
-}
-.city-input:hover {
-background-color: #505B4D;
+.input:hover {
+  background-color: #505B4D;
 }
 
-/* Product Listing */
+.input:focus{
+  outline: 0.1rem solid #6F826A;
+}
+
+.name-div {
+  margin-right: 1rem;
+  max-width: 20rem;
+}
+
 .product-listing-description {
   max-width: 30rem;
   flex:1;
@@ -615,6 +423,40 @@ padding-top: 3rem;
   margin-bottom: 5rem;
 }
 
+.homepage-img {
+  margin-top: -2rem;
+  margin-bottom: -12.5rem;
+  max-width: 100%;
+}
+
+/* .home-img-container {
+  display: inline;
+  margin-bottom: -4rem; */
+  /* margin-left: -10rem;
+  margin-right: -10rem; */
+/* } */
+
+.footer-container {
+  display: flex;
+  margin-top: -1rem;
+}
+
+.footer-element {
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+.about {
+  margin-bottom: 3rem;
+  margin-top: -1rem;
+}
+
+.purchased {
+  text-align:center;
+  margin-top: -5rem;
+  padding: 10rem;
+}
+
 /* breakpoints */
 
 @media screen and (max-width: 60rem) {
@@ -641,15 +483,6 @@ padding-top: 3rem;
   }
 }
 
-.footer-container {
-  display: flex;
-  margin-top: -1rem;
-}
-
-.footer-element {
-  padding-right: 2rem;
-  padding-left: 2rem;
-}
 
 #CompName {
   padding-top: -4.5rem;
@@ -657,35 +490,33 @@ padding-top: 3rem;
 }
 #comment-footer {
   margin-top: 3rem;
+  margin-left: -1rem;
 }
 
-#form-comment-footer{
-margin-left: -0.5rem;
-}
 #footer-comment-label {
   color: #E1DCD9;
   margin-left: -0.5rem;
 }
+
 #nav-footer {
   padding-top: 2rem;
 }
+
 #nav-title-footer {
-  margin-bottom:0.5rem;
+  margin-bottom: 0.25rem;
   font-size: 1.5rem;
   color: #E1DCD9;
 }
+
 #nav-button-footer {
+  margin-bottom: -.5rem;
   margin-left: -0.4rem;
   color: #E1DCD9;
 }
+
 #nav-button-footer:hover {
   color: black;
   background: none;
-}
-
-#about {
-  margin-bottom: 3rem;
-  margin-top: -1rem;
 }
 
 #footer-title {
@@ -695,22 +526,16 @@ margin-left: -0.5rem;
   color: #E1DCD9;
 }
 
-#form-comment {
-  margin-left: -0.5rem;
-}
-
 #email-submit {
   margin-bottom: 2rem;
 }
 
-.purchased {
-  text-align:center;
-  margin-top: -5rem;
-  padding: 10rem;
+#payment-button {
+  margin-top: -1rem;
+  margin-left: 11rem;
+  margin-bottom: 3rem;
 }
 
-.contact-page {
-  margin-top: -3rem;
-  padding-top: 6rem;
-  padding-bottom: 6rem;
+#brand-elements {
+  margin-bottom: 5rem;
 }
