@@ -452,6 +452,12 @@ padding-top: 3rem;
   max-width: 100%;
 }
 
+.homepage-img-container {
+  display: block;
+  margin: auto;
+  position: relative;
+}
+
 /* .home-img-container {
   display: inline;
   margin-bottom: -4rem; */
