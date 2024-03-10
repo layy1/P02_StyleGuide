@@ -279,6 +279,29 @@ nav a:hover, nav a:focus {
   border-style: double;
 }
 
+/* Card input (name and number) */
+
+.card-input {
+  font-family: "ApfelGrotezk";
+  padding-left: 0.7rem;
+  padding-right: 0.7rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  border-radius: 1.5rem;
+  border: none;
+  flex:1;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+}
+
+.card-input:hover {
+  background-color: #8597B1;
+}
+
+.card-input :focus{
+  outline: 0.1rem solid #32435F;
+}
+
 /*First and Last Name Container */
 
 .first-last-name-container {
