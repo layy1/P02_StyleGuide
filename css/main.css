@@ -321,19 +321,19 @@ nav a:hover, nav a:focus {
 }
 
 .name-input:hover {
-  background-color: #505B4D;
+  background-color: #8597B1;
 }
 
 .name-input:focus{
-  outline: 0.1rem solid #6F826A;
+  outline: 0.1rem solid #32435F;
 }
 
 .input:hover {
-  background-color: #505B4D;
+  background-color: #8597B1;
 }
 
 .input:focus{
-  outline: 0.1rem solid #6F826A;
+  outline: 0.1rem solid #32435F;
 }
 
 .name-div {
@@ -465,13 +465,13 @@ padding-top: 3rem;
   }
 }
 
-@media (min-width: 10rem) {
+@media (min-width: 40rem) {
   .row{
     grid-template-columns: 1fr;
   }
 }
 
-@media (min-width: 49rem) {
+@media (min-width: 65rem) {
   .row{
     grid-template-columns: 1fr 1fr;
   }
