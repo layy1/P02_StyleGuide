@@ -157,7 +157,7 @@ nav a:hover, nav a:focus {
   transition-duration: 0.5s;
   border-radius: 1.5rem;
   font-size: 1rem;
-  margin-top: 1.5rem;
+/*   margin-top: 1.5rem; */
 }
 
 .button:hover {
@@ -559,4 +559,9 @@ padding-top: 3rem;
 #form-comment {
   margin-left: -.5rem;
   max-width: 12rem;
+}
+
+#view-prod {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
 }
