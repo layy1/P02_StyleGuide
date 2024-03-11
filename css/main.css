@@ -155,9 +155,10 @@ nav a:hover, nav a:focus {
   text-decoration: none;
   transition-property: background-color;
   transition-duration: 0.5s;
+  border: none;
   border-radius: 1.5rem;
   font-size: 1rem;
-/*   margin-top: 1.5rem; */
+  /* margin-top: 1.5rem; */
 }
 
 .button:hover {
@@ -197,8 +198,10 @@ nav a:hover, nav a:focus {
 }
 
 .product-checkout-description {
+  flex: 5;
   align-items: center;
   margin: 2rem;
+  /* margin-right: 6rem; */
 }
 
 .payment-form {
@@ -421,6 +424,12 @@ padding-top: 3rem;
   align-items: center;
 }
 
+.button-box{
+  flex: 1;
+  display: flex;
+  align-items: right;
+}
+
 .home-content {
   margin-bottom: 5rem;
 }
@@ -471,6 +480,10 @@ padding-top: 3rem;
 
 .total {
   margin-left: 11rem;
+}
+
+.card-label {
+  margin-left: 1rem;
 }
 
 /* breakpoints */
@@ -564,4 +577,8 @@ padding-top: 3rem;
 #view-prod {
   margin-top: 0.5rem;
   margin-bottom: 1rem;
+}
+
+#confirm-payment {
+  margin-top: .75rem;
 }
