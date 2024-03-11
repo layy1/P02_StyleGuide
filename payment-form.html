@@ -19,7 +19,8 @@
     <header>
       <h1>LA-RÉB DESIGN STUDIO</h1>
 
-
+  <body>
+    <section>
 <!-- NAVIGATION LINK / MENU -->
 
 <nav class= "nav-menu">
@@ -33,51 +34,59 @@
     </header>
 </section>
 
-  <h2>Payment Form</h2>
-  <div class= "payment-form">
-  <form method="submit" action="#">
-      <div class= "first-last-name-container">
-      <div class="name-div">
-      <label for="first-name">First Name:</label>
-      <input type="text" name="first-name" class= "name-input" placeholder="John">
-      </div>
-    <div class="name-div">
-      <label for="last-name">Last Name:</label>
-      <input type="text" name="last-name" class= "name-input" placeholder="Smith">
-    </div>
-    </div>
-
-    <div>
-      <label for="email-add">Email Address:</label>
-      <input type="text" name="email-add" class= "input" placeholder="JohnSmith@email.com">
-    </div>
-  <div>
-    <label for="phone-number">Phone Number:</label>
-    <input type="text" name="phone-number" class= "input" placeholder="XXX-XXX-XXX">
+<section class ="checkout">
+<div class= "checkout-product-container">
+    <a href="./product-listing6.html" class= "img-checkout"> <img src="img/product6.jpg"> </a>
+  <div class= "product-checkout-description">
+    <h2>Paint Swatch Art Prints</h2>
+    <h3>$25.00</h3>
+    <!--Referenced from https://codepen.io/ChynoDeluxe/pen/poyNEay-->
+        <label for="product-qty">Quantity:</label>
+      <input class="product-qty" type="number" name="product-qty" min="0" max="10" value="1">
   </div>
-    <label for="address">Address:</label>
-    <input type="text" name="address" class= "input" placeholder="Address Line 1">
-    <input type="text" name="address" class= "input" placeholder="Address Line 2">
-
-    <div>
-    <label for="city">City:</label>
-    <input type="text" name="city" class= "input" placeholder="City">
-  </div>
-
-    <label for="postal-code">Postal Code:</label>
-    <input type="text" name="postal-code" class= "input" placeholder="Postal Code">
-  </form>
-  <h3>Select Payment Type</h3>
-  <input type="radio" class= "radio" name="payment" value="debit/credit"> Debit/Credit
-  <label for="cardname">Name on Card:</label>
-  <input type="text" name="cardname" class= "card-input" placeholder="">
-  <label for="cardnumber">Card Number:</label>
-  <input type="text" name="cardnumber" class= "card-input" placeholder="">
-  <br>
-  <input type="radio" class= "radio" name="payment" value="paypal"> Paypal
-  <br>
-  <a href="./purchased.html" class="button">Confirm Payment</a>
+  <div class="button-box">
+  <button class="button" id="remove-button"> Remove </button>
 </div>
+</div>
+
+<div class= "checkout-product-container">
+    <a href="./product-listing8.html" class= "img-checkout"> <img src="img/product8.jpg"> </a>
+  <div class= "product-checkout-description">
+    <h2>Spotify Illustration Prints</h2>
+    <h3>$25.00</h3>
+    <!--Referenced from https://codepen.io/ChynoDeluxe/pen/poyNEay-->
+        <label for="product-qty">Quantity:</label>
+      <input class="product-qty" type="number" name="product-qty" min="0" max="10" value="1">
+
+  </div>
+  <div class="button-box">
+  <button class="button" id="remove-button"> Remove </button>
+</div>
+
+</div>
+<div class= "checkout-product-container">
+    <a href="./product-listing2.html" class= "img-checkout">
+      <img src="img/product2.jpg">
+    </a>
+  <div class= "product-checkout-description">
+    <h2>Salute</h2>
+    <h3>$30.00</h3>
+    <!--Referenced from https://codepen.io/ChynoDeluxe/pen/poyNEay-->
+        <label for="product-qty">Quantity:</label>
+      <input class="product-qty" type="number" name="product-qty" min="0" max="10" value="1">
+  </div>
+  <div class="button-box">
+  <button class="button" id="remove-button"> Remove </button>
+</div>
+</div>
+<div class= "checkout-product-container">
+<div class="total">
+<h3>Total Items: <em>3</em></h3>
+<h2>Subtotal: <em>$80.00</em></h2>
+</div>
+</div>
+<a href="./payment-form.html" class="button" id="payment-button">Proceed to Payment Form</a>
+</section>
 
 
     </body>
@@ -104,6 +113,6 @@
         </div>
       </div>
     </div>
-        </footer>
+    </footer>
 
-        </html>
+  </html>
